@@ -4,17 +4,20 @@ body{
 }
 .nav-bar{
   justify-content: space-between;
+     display: flex;
+  align-items: center;
+  padding: 0 25px;
+  margin: 40px auto;
 }
 .left-side{
    text-align: left;
-   margin-left: 100px;
    font-size: 1em;
 }
+
 .right-side{
    display: flex;
    text-align: right;
-   margin-left: 1250px;
-
+  
 }
 .nav-bar > .right-side > div {
       margin-left: 30px;
